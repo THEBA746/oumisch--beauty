@@ -1,50 +1,47 @@
-
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #fff;
+  color: #333;
 }
 header {
-  background-color: #8b5c3c;
+  background-color: #d81b60;
   color: white;
-  text-align: center;
   padding: 20px;
+  text-align: center;
 }
 nav {
-  background: #eee;
-  text-align: center;
-  padding: 10px;
+  background-color: #c2185b;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
 }
 nav a {
+  color: white;
   margin: 0 15px;
   text-decoration: none;
-  color: #8b5c3c;
+  font-weight: bold;
 }
 section {
-  padding: 20px;
+  padding: 40px 20px;
+  text-align: center;
 }
-h2 {
-  color: #8b5c3c;
-}
-form {
+.services {
   display: flex;
-  flex-direction: column;
-  max-width: 400px;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
-form input, form textarea {
-  margin-bottom: 10px;
-  padding: 10px;
-  font-size: 16px;
-}
-button {
-  background-color: #8b5c3c;
-  color: white;
-  padding: 10px;
-  border: none;
+.service {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 250px;
 }
 footer {
-  background-color: #eee;
+  background-color: #d81b60;
+  color: white;
   text-align: center;
-  padding: 10px;
-  font-size: 14px;
+  padding: 15px;
 }
